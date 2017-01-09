@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696DF5AA0EB8A8F80004FC8E /* LLEyeLinkDataDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */; };
+		696DF5AC0EB8A92C0004FC8E /* eyelink_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0ED5EE0CA080D000BE2453 /* eyelink_core.framework */; };
+		FC0ED5150CA067EA00BE2453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		FC0ED5220CA067EA00BE2453 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		FC0ED5230CA067EA00BE2453 /* Lablib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6975F2950B3328C200312509 /* Lablib.framework */; };
+		FC0ED5260CA067EA00BE2453 /* LLEyeLinkDataDevice.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */; };
+		FC4059810CD6669100F2E428 /* LLEyeLinkMonitor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC4059800CD6669100F2E428 /* LLEyeLinkMonitor.h */; };
+		FC40598E0CD666E300F2E428 /* LLEyeLinkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */; };
+		FC4059990CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */; };
+		FC4059A00CD6687000F2E428 /* LLEyeLinkMonitorSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */; };
+		FC4059FB0CD66A8100F2E428 /* LLEyeLinkMonitorSettings.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC4059F90CD66A8100F2E428 /* LLEyeLinkMonitorSettings.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC0ED5240CA067EA00BE2453 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC0ED5260CA067EA00BE2453 /* LLEyeLinkDataDevice.h in CopyFiles */,
+				FC4059810CD6669100F2E428 /* LLEyeLinkMonitor.h in CopyFiles */,
+				FC4059990CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LablibEyeLink_Prefix.h; sourceTree = "<group>"; };
+		6975F2950B3328C200312509 /* Lablib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lablib.framework; path = ../../../../../../Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = LablibEyeLink_Plugin.plist; sourceTree = "<group>"; };
+		69D31ADC097C5B44001102CA /* LablibEyeLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LablibEyeLink.h; sourceTree = "<group>"; };
+		69F2BB2F04D31F6300F95507 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LLEyeLinkDataDevice.h; sourceTree = "<group>"; };
+		FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LLEyeLinkDataDevice.m; sourceTree = "<group>"; };
+		FC0ED5EE0CA080D000BE2453 /* eyelink_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = eyelink_core.framework; path = /Library/Frameworks/eyelink_core.framework; sourceTree = "<absolute>"; };
+		FC4059800CD6669100F2E428 /* LLEyeLinkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LLEyeLinkMonitor.h; sourceTree = "<group>"; };
+		FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LLEyeLinkMonitor.m; sourceTree = "<group>"; };
+		FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LLEyeLinkMonitorSettings.h; sourceTree = "<group>"; };
+		FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LLEyeLinkMonitorSettings.m; sourceTree = "<group>"; };
+		FC4059FA0CD66A8100F2E428 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = LLEyeLinkMonitorSettings.xib; sourceTree = "<group>"; };
+		FCDA921E0CC017D4001C4E70 /* LablibEyeLink.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LablibEyeLink.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0ED5210CA067EA00BE2453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0ED5220CA067EA00BE2453 /* Cocoa.framework in Frameworks */,
+				FC0ED5230CA067EA00BE2453 /* Lablib.framework in Frameworks */,
+				696DF5AC0EB8A92C0004FC8E /* eyelink_core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA921E0CC017D4001C4E70 /* LablibEyeLink.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LablibITC18 */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				697BD676098841E600D9176F /* Plists */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LablibITC18;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				FC4059F90CD66A8100F2E428 /* LLEyeLinkMonitorSettings.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */,
+				FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */,
+				FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */,
+				FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */,
+				FC4059800CD6669100F2E428 /* LLEyeLinkMonitor.h */,
+				FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6975F2950B3328C200312509 /* Lablib.framework */,
+				FC0ED5EE0CA080D000BE2453 /* eyelink_core.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				69F2BB2F04D31F6300F95507 /* IOKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */,
+				69D31ADC097C5B44001102CA /* LablibEyeLink.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		697BD676098841E600D9176F /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0ED5270CA067EA00BE2453 /* Build configuration list for PBXNativeTarget "LablibEyeLink Plugin" */;
+			buildPhases = (
+				FC0ED5130CA067EA00BE2453 /* Resources */,
+				FC0ED51A0CA067EA00BE2453 /* Sources */,
+				FC0ED5210CA067EA00BE2453 /* Frameworks */,
+				FC0ED5240CA067EA00BE2453 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LablibEyeLink Plugin";
+			productName = "LablibITC18 Plugin";
+			productReference = FCDA921E0CC017D4001C4E70 /* LablibEyeLink.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 69B8D103088DAB78002FCFD4 /* Build configuration list for PBXProject "LablibEyeLinkPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LablibITC18 */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0ED5130CA067EA00BE2453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0ED5150CA067EA00BE2453 /* InfoPlist.strings in Resources */,
+				FC4059FB0CD66A8100F2E428 /* LLEyeLinkMonitorSettings.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0ED51A0CA067EA00BE2453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC40598E0CD666E300F2E428 /* LLEyeLinkMonitor.m in Sources */,
+				FC4059A00CD6687000F2E428 /* LLEyeLinkMonitorSettings.m in Sources */,
+				696DF5AA0EB8A8F80004FC8E /* LLEyeLinkDataDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC4059F90CD66A8100F2E428 /* LLEyeLinkMonitorSettings.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4059FA0CD66A8100F2E428 /* English */,
+			);
+			name = LLEyeLinkMonitorSettings.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B8D104088DAB78002FCFD4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = "";
+			};
+			name = Development;
+		};
+		69B8D105088DAB78002FCFD4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				SDKROOT = "";
+			};
+			name = Deployment;
+		};
+		69B8D106088DAB78002FCFD4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				SDKROOT = "";
+			};
+			name = Default;
+		};
+		FC0ED5280CA067EA00BE2453 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Library/Application Support/Knot/Plugins/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Documents/Lablib/Frameworks/Lablib/build/Development/;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Lablib/build/Development\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(HOME)/Library/Frameworks\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LablibEyeLink_Prefix.h;
+				INFOPLIST_FILE = LablibEyeLink_Plugin.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OBJROOT = build;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = LablibEyeLink;
+				SYMROOT = build;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		FC0ED5290CA067EA00BE2453 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Lablib/build/Development\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Lablib/build/Development\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LablibEyeLink_Prefix.h;
+				INFOPLIST_FILE = LablibEyeLink_Plugin.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = LablibEyeLink;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		FC0ED52A0CA067EA00BE2453 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Lablib/build/Development\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Lablib/build/Development\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LablibEyeLink_Prefix.h;
+				INFOPLIST_FILE = LablibEyeLink_Plugin.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = LablibEyeLink;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B8D103088DAB78002FCFD4 /* Build configuration list for PBXProject "LablibEyeLinkPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B8D104088DAB78002FCFD4 /* Development */,
+				69B8D105088DAB78002FCFD4 /* Deployment */,
+				69B8D106088DAB78002FCFD4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		FC0ED5270CA067EA00BE2453 /* Build configuration list for PBXNativeTarget "LablibEyeLink Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0ED5280CA067EA00BE2453 /* Development */,
+				FC0ED5290CA067EA00BE2453 /* Deployment */,
+				FC0ED52A0CA067EA00BE2453 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

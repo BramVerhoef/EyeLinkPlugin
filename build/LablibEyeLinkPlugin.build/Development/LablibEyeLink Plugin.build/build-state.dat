@@ -1,0 +1,299 @@
+TLablibEyeLink Plugin
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Info.plist" LablibEyeLink_Plugin.plist
+cCompileXIB /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.xib
+cCopyStringsFile "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth LablibEyeLink_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink" normal i386
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLDataDevice.h
+c0000000050EF2E9900000000000007B3
+t1357852313
+s1971
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLDataDoc.h
+c00000000509A947F000000000000092C
+t1352307839
+s2348
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLDataEventDef.h
+c00000000505321C500000000000007CE
+t1347625413
+s1998
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLDataEvents.h
+c00000000505321C5000000000000070D
+t1347625413
+s1805
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLDataReader.h
+c00000000505321C500000000000002BC
+t1347625413
+s700
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLIODevice.h
+c00000000505321C50000000000000388
+t1347625413
+s904
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLMonitor.h
+c00000000505321C50000000000000182
+t1347625413
+s386
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLPluginController.h
+c00000000505321C500000000000002F6
+t1347625413
+s758
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLStandardDataEvents.h
+c00000000505321C50000000000000711
+t1347625413
+s1809
+
+N/Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Headers/LLSystemUtil.h
+c00000000505321C50000000000000476
+t1347625413
+s1142
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/English.lproj/InfoPlist.strings
+c000000004FDBCB050000000000000210
+t1339804421
+s528
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.h
+c0000000050E738F000000000000004FC
+t1357330672
+s1276
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m
+c00000000515C863600000000000033E4
+t1365018166
+s13284
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.h
+c000000004FDBCB05000000000000052B
+t1339804421
+s1323
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m
+c000000005011B78B0000000000001A07
+t1343338379
+s6663
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.h
+c000000004FDBCB05000000000000025F
+t1339804421
+s607
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m
+c000000004FDBCB050000000000000675
+t1339804421
+s1653
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.xib
+c000000004FDBCB050000000000004CEE
+t1339804421
+s19694
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LablibEyeLink_Prefix.h
+c000000004FDBCB050000000000000074
+t1339804421
+s116
+i<Foundation/Foundation.h>
+i<AppKit/AppKit.h>
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o
+t1361998951
+s44744
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o
+t1361998621
+s34536
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o
+t1361998621
+s22000
+
+N/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LablibEyeLink.LinkFileList
+c00000000512E731400000000000001DF
+t1361998612
+s479
+
+N/Library/Application Support/Knot/Plugins/Development/../../../../../../Documents/Lablib/Frameworks/Lablib/build/Development/Lablib.framework/Lablib
+c00000000513F4DC200000000000DD1E4
+t1363103170
+s905700
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin
+t1363103223
+s102
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkDataDevice.h
+t1363103223
+s1276
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkMonitor.h
+t1363103223
+s1323
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkMonitorSettings.h
+t1363103223
+s607
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Info.plist
+t1363103212
+s1119
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink
+t1363103223
+s39200
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Resources/English.lproj/InfoPlist.strings
+t1363103212
+s528
+
+N/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Resources/LLEyeLinkMonitorSettings.nib
+t1363103223
+s6438
+
+N/Library/Frameworks/eyelink_core.framework/eyelink_core
+c0000000046F1394D0000000000049DF8
+t1190213965
+s302584
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004F065A970000000000001911
+t1325816471
+s6417
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004FA92B9C0000000000006560
+t1336486812
+s25952
+
+N/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004EF2842A0000000000001534
+t1324516394
+s5428
+
+N/var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth
+t1361998620
+s11742548
+
+NLablibEyeLink_Plugin.plist
+c000000004FDBCB0500000000000002E7
+t1339804421
+s743
+
+CBuild AST from /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m
+r0
+
+CBuild AST from /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m
+r0
+
+CBuild AST from /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf4debb6bd0cb741^ccd2feb6bd0cb741^---0#1#0#--18"Check dependencies36"14F4EFB0-53EE-4CBF-B72C-13495D530D56-
+
+CCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386710967.021854
+e386710970.184208
+r1
+xCompileC
+xbuild/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o
+x/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m0dc505b7bd0cb741^52282fbabd0cb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m0000000000000000^2918"CompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o" LLEyeLinkDataDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -msse3 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/LablibEyeLink.hmap" "-I/Library/Application Support/Knot/Plugins/Development/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources/i386" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources" "-F/Library/Application Support/Knot/Plugins/Development" -F/Documents/Lablib/Frameworks/Lablib/build/Development -include /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h -MMD -MT dependencies -MF "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.d" --serialize-diagnostics "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.dia" -c /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkDataDevice.m -o "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkDataDevice.o"36"635D7DC3-234E-45B6-9327-4E7B7CFE24B2-
+
+CCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383691420.704123
+e383691421.145978
+r1
+xCompileC
+xbuild/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o
+x/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.mcf67b49caadeb641^5260259daadeb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m0000000000000000^2900"CompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o" LLEyeLinkMonitor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -msse3 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/LablibEyeLink.hmap" "-I/Library/Application Support/Knot/Plugins/Development/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources/i386" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources" "-F/Library/Application Support/Knot/Plugins/Development" -F/Documents/Lablib/Frameworks/Lablib/build/Development -include /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h -MMD -MT dependencies -MF "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.d" --serialize-diagnostics "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.dia" -c /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitor.m -o "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitor.o"36"4F7EF8EB-6044-4FA3-B9FC-34D8F242E4B0-
+
+CCompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o" /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383691420.704095
+e383691421.141825
+r1
+xCompileC
+xbuild/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o
+x/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m8d63b49caadeb641^1650249daadeb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m0000000000000000^2948"CompileC "build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o" LLEyeLinkMonitorSettings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -msse3 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/LablibEyeLink.hmap" "-I/Library/Application Support/Knot/Plugins/Development/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources/i386" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources" "-F/Library/Application Support/Knot/Plugins/Development" -F/Documents/Lablib/Frameworks/Lablib/build/Development -include /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h -MMD -MT dependencies -MF "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.d" --serialize-diagnostics "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.dia" -c /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.m -o "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LLEyeLinkMonitorSettings.o"36"E815CB5B-7D9F-4FD9-930C-0D05551FA1EE-
+
+CCompileXIB /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LLEyeLinkMonitorSettings.xib
+r0
+
+CCopyStringsFile "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CLd "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink" normal i386
+s386710970.191110
+e386710973.411814
+r0
+xLd
+x/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink
+xnormal
+xi386
+old: can't write output file: /Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLinkea0331babd0cb741^c26d69bdbd0cb741^-403"ld: can't write output file: /Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)error: couldn't remove '/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink' after command failed: Permission denied3(21%IDEActivityLogMessage2@150"Can't write output file: /Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink for architecture i386-386710973#0#155#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@65"Linker command failed with exit code 1 (use -v to see invocation)-386710973#155#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@168"error: couldn't remove '/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink' after command failed: Permission denied-386710973#18446744073709551615#0#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#--866"Ld "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink" normal i386    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle "-L/Library/Application Support/Knot/Plugins/Development" "-F/Library/Application Support/Knot/Plugins/Development" -F/Documents/Lablib/Frameworks/Lablib/build/Development -filelist "/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/Objects-normal/i386/LablibEyeLink.LinkFileList" -framework Foundation -framework AppKit -fobjc-link-runtime -framework Cocoa -framework Lablib -framework eyelink_core -o "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/MacOS/LablibEyeLink"36"77AA11D7-070F-4562-8BCD-EA58F3DD3E3B-
+
+CPBXCp LLEyeLinkDataDevice.h "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkDataDevice.h"
+r0
+
+CPBXCp LLEyeLinkMonitor.h "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkMonitor.h"
+r0
+
+CPBXCp LLEyeLinkMonitorSettings.h "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Frameworks/LLEyeLinkMonitorSettings.h"
+r0
+
+CProcessInfoPlistFile "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin/Contents/Info.plist" LablibEyeLink_Plugin.plist
+r0
+
+CProcessPCH /Users/fonz/Library/Developer/Xcode/DerivedData/LablibEyeLinkPlugin-gpasqbjaeleakodxhxidbctqakud/Index/PrecompiledHeaders/LablibEyeLink_Prefix-gvzjdnshrskweudmlgpeevkmuabj_ast/LablibEyeLink_Prefix.h.pth LablibEyeLink_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth LablibEyeLink_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383691412.980103
+e383691420.697373
+r1
+xProcessPCH
+x/var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth
+xLablibEyeLink_Prefix.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile LablibEyeLink_Prefix.hac560695aadeb641^d6a9b29caadeb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Documents/Lablib/Plugins/LablibEyeLinkPlugin/LablibEyeLink_Prefix.h0000000000000000^2835"ProcessPCH /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth LablibEyeLink_Prefix.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -msse3 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/LablibEyeLink.hmap" "-I/Library/Application Support/Knot/Plugins/Development/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources/i386" "-I/Documents/Lablib/Plugins/LablibEyeLinkPlugin/build/LablibEyeLinkPlugin.build/Development/LablibEyeLink Plugin.build/DerivedSources" "-F/Library/Application Support/Knot/Plugins/Development" -F/Documents/Lablib/Frameworks/Lablib/build/Development --serialize-diagnostics /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.dia -c /Documents/Lablib/Plugins/LablibEyeLinkPlugin/LablibEyeLink_Prefix.h -o /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.pth -MMD -MT dependencies -MF /var/folders/2r/6m2b4gzj74z3y67ldqhk1gf40000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/LablibEyeLink_Prefix-gcdobvwyeykwnsgpeukuqpvicifk/LablibEyeLink_Prefix.h.d36"32F3B600-FF2B-4B00-BD2F-5C01DDF1F657-
+
+CTouch "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin"
+s383691751.953826
+e383691752.224268
+r1
+xTouch
+x/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugind140f4e7abdeb641^6e6939e8abdeb641^---0#0#0#--235"Touch "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin"    cd /Documents/Lablib/Plugins/LablibEyeLinkPlugin    /usr/bin/touch -c "/Library/Application Support/Knot/Plugins/Development/LablibEyeLink.plugin"36"8F3EDFB3-3D79-4196-9EEA-C388A4BC82E1-
+

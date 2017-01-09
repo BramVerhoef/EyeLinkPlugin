@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = FC59A6B80CB17CA100A86774 /* Knot */;
+		activeTarget = FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */;
+		addToTargets = (
+			FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */,
+		);
+		breakpoints = (
+			FCDAA1030CEA514900BB2E5D /* LLEyeLinkMonitor.m:19 */,
+			FCDAA10C0CEA518D00BB2E5D /* LLEyeLinkMonitor.m:57 */,
+			FCDAA10E0CEA519300BB2E5D /* LLEyeLinkMonitor.m:116 */,
+			FCDAA2780CEB9A7B00BB2E5D /* LLEyeLinkDataDevice.m:297 */,
+			FCDAA3BA0CECF12E00BB2E5D /* stop_recording */,
+			FCDAA3DF0CECF3CD00BB2E5D /* asm stop_recording  0x14e28986:1 */,
+			FCDAA5A10CF2299500BB2E5D /* -[OCEyeXYZController eyeX2Data:eventTime:] */,
+		);
+		breakpointsGroup = FC0ED43B0CA0617E00BE2453 /* XCBreakpointsBucket */;
+		codeSenseManager = FC0ED4280CA05D9D00BE2453 /* Code sense */;
+		executables = (
+			FC59A6B80CB17CA100A86774 /* Knot */,
+		);
+		expressions = (
+			task,
+			shouldKillThread,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ActionID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					362,
+					20,
+					261,
+					261,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					273,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					239,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					1000,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					61,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 217788497;
+			PBXWorkspaceStateSaveDate = 217788497;
+		};
+		perUserProjectItems = {
+			FC2DC9ED0D35878E0055E66A /* PBXTextBookmark */ = FC2DC9ED0D35878E0055E66A /* PBXTextBookmark */;
+			FC2DC9EE0D35878E0055E66A /* PBXTextBookmark */ = FC2DC9EE0D35878E0055E66A /* PBXTextBookmark */;
+			FCDAA69B0CF4DEFD00BB2E5D /* PBXTextBookmark */ = FCDAA69B0CF4DEFD00BB2E5D /* PBXTextBookmark */;
+			FCDAA69C0CF4DEFD00BB2E5D /* PBXTextBookmark */ = FCDAA69C0CF4DEFD00BB2E5D /* PBXTextBookmark */;
+		};
+		sourceControlManager = FC0ED4270CA05D9D00BE2453 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1667FE841158C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 777}}";
+			sepNavSelRange = "{259, 0}";
+			sepNavVisRect = "{{0, 0}, {689, 777}}";
+			sepNavWindowFrame = "{{68, 0}, {1116, 1028}}";
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 341}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1214, 341}}";
+			sepNavWindowFrame = "{{68, 0}, {1116, 1028}}";
+		};
+	};
+	697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 899}}";
+			sepNavSelRange = "{1, 0}";
+			sepNavVisRect = "{{0, 0}, {1071, 899}}";
+			sepNavWindowFrame = "{{438, 0}, {1116, 1028}}";
+		};
+	};
+	69D31ADC097C5B44001102CA /* LablibEyeLink.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 341}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1214, 341}}";
+			sepNavWindowFrame = "{{68, 0}, {1116, 1028}}";
+		};
+	};
+	FC0ED4270CA05D9D00BE2453 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			SubversionToolPath = /usr/local/bin/svn;
+		};
+		scmType = scm.subversion;
+	};
+	FC0ED4280CA05D9D00BE2453 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FC0ED43B0CA0617E00BE2453 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = LablibEyeLinkPlugin;
+		objects = (
+			FCCE5D880CC7DD2A00E610EE /* XCBreakpointsBucket */,
+			FCDAA1030CEA514900BB2E5D /* LLEyeLinkMonitor.m:19 */,
+			FCDAA10C0CEA518D00BB2E5D /* LLEyeLinkMonitor.m:57 */,
+			FCDAA10E0CEA519300BB2E5D /* LLEyeLinkMonitor.m:116 */,
+			FCDAA2780CEB9A7B00BB2E5D /* LLEyeLinkDataDevice.m:297 */,
+			FCDAA3BA0CECF12E00BB2E5D /* stop_recording */,
+			FCDAA3DF0CECF3CD00BB2E5D /* asm stop_recording  0x14e28986:1 */,
+			FCDAA5A10CF2299500BB2E5D /* -[OCEyeXYZController eyeX2Data:eventTime:] */,
+		);
+	};
+	FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {723, 738}}";
+			sepNavSelRange = "{226, 12}";
+			sepNavVisRect = "{{0, 0}, {723, 738}}";
+			sepNavWindowFrame = "{{1011, 512}, {765, 666}}";
+		};
+	};
+	FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {704, 5083}}";
+			sepNavSelRange = "{1698, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+			sepNavWindowFrame = "{{319, 29}, {815, 1146}}";
+		};
+	};
+	FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */ = {
+		activeExec = 0;
+	};
+	FC2DC9ED0D35878E0055E66A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 77";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	FC2DC9EE0D35878E0055E66A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: kUseLLDataDevices";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 1685;
+		vrLoc = 439;
+	};
+	FC4059800CD6669100F2E428 /* LLEyeLinkMonitor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {706, 644}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRect = "{{0, 0}, {643, 643}}";
+			sepNavWindowFrame = "{{61, 11}, {688, 763}}";
+		};
+	};
+	FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 3066}}";
+			sepNavSelRange = "{491, 0}";
+			sepNavVisRect = "{{0, 322}, {822, 259}}";
+			sepNavWindowFrame = "{{529, 63}, {821, 1047}}";
+		};
+	};
+	FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 777}}";
+			sepNavSelRange = "{44, 0}";
+			sepNavVisRect = "{{0, 0}, {689, 777}}";
+		};
+	};
+	FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 884}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRect = "{{0, 0}, {689, 777}}";
+		};
+	};
+	FC59A6B80CB17CA100A86774 /* Knot */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "Executable Runner";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = FC59A6B90CB17CA100A86774 /* Knot.app */;
+		libgmallocEnabled = 0;
+		name = Knot;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		startupPath = "<<ProductDirectory>>";
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	FC59A6B90CB17CA100A86774 /* Knot.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Knot.app;
+		path = /Documents/Lablib/Applications/Knot/build/Development/Knot.app;
+		sourceTree = "<absolute>";
+	};
+	FCCE5D880CC7DD2A00E610EE /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = Special;
+		objects = (
+		);
+	};
+	FCDAA1030CEA514900BB2E5D /* LLEyeLinkMonitor.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */;
+		functionName = "-checkWarnings";
+		hitCount = 1;
+		lineNumber = 19;
+		location = LablibEyeLink;
+		modificationTime = 217372454.983729;
+		state = 2;
+	};
+	FCDAA10C0CEA518D00BB2E5D /* LLEyeLinkMonitor.m:57 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */;
+		functionName = "-doAlarm:";
+		hitCount = 1;
+		lineNumber = 57;
+		location = LablibEyeLink;
+		modificationTime = 217372454.983753;
+		state = 2;
+	};
+	FCDAA10E0CEA519300BB2E5D /* LLEyeLinkMonitor.m:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = FC40598D0CD666E300F2E428 /* LLEyeLinkMonitor.m */;
+		functionName = "-initValues:";
+		hitCount = 1;
+		lineNumber = 116;
+		location = LablibEyeLink;
+		modificationTime = 217372454.983772;
+		state = 2;
+	};
+	FCDAA2780CEB9A7B00BB2E5D /* LLEyeLinkDataDevice.m:297 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		functionName = "-setDataEnabled:";
+		hitCount = 1;
+		lineNumber = 297;
+		location = LablibEyeLink;
+		modificationTime = 217372454.983787;
+		state = 2;
+	};
+	FCDAA3BA0CECF12E00BB2E5D /* stop_recording */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		hitCount = 1;
+		location = eyelink_core;
+		modificationTime = 217372454.983952;
+		state = 2;
+		symbolName = stop_recording;
+	};
+	FCDAA3DD0CECF3CD00BB2E5D /* asm stop_recording  0x14e28986 */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file;
+		path = "asm stop_recording  0x14e28986";
+		sourceTree = "<group>";
+	};
+	FCDAA3DF0CECF3CD00BB2E5D /* asm stop_recording  0x14e28986:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = FCDAA3DD0CECF3CD00BB2E5D /* asm stop_recording  0x14e28986 */;
+		hitCount = 1;
+		lineNumber = 1;
+		modificationTime = 217372454.983816;
+		state = 2;
+	};
+	FCDAA5A10CF2299500BB2E5D /* -[OCEyeXYZController eyeX2Data:eventTime:] */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		hitCount = 1;
+		modificationTime = 217372454.983969;
+		state = 2;
+		symbolName = "-[OCEyeXYZController eyeX2Data:eventTime:]";
+	};
+	FCDAA69B0CF4DEFD00BB2E5D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 77";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	FCDAA69C0CF4DEFD00BB2E5D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: kUseLLDataDevices";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 1706;
+		vrLoc = 439;
+	};
+}

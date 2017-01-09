@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = F8C69BE70E5B53D200070A28 /* LabLib */;
+		activeSDKPreference = macosx10.4;
+		activeTarget = FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */;
+		codeSenseManager = F85AEB790E12BEDB00817821 /* Code sense */;
+		executables = (
+			F8C69BE70E5B53D200070A28 /* LabLib */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					300,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					429.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					542,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					518,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					371,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 246215562;
+			PBXWorkspaceStateSaveDate = 246215562;
+		};
+		perUserProjectItems = {
+			F81894490EACF06700E7A0BC = F81894490EACF06700E7A0BC /* PBXTextBookmark */;
+			F81894920EACF1B500E7A0BC = F81894920EACF1B500E7A0BC /* PBXTextBookmark */;
+			F818949C0EACF39800E7A0BC /* PBXTextBookmark */ = F818949C0EACF39800E7A0BC /* PBXTextBookmark */;
+			F81894B50EAD16AE00E7A0BC /* PBXTextBookmark */ = F81894B50EAD16AE00E7A0BC /* PBXTextBookmark */;
+			F838714B0E4CB03A00A1DF0B = F838714B0E4CB03A00A1DF0B /* PlistBookmark */;
+			F838714C0E4CB03A00A1DF0B = F838714C0E4CB03A00A1DF0B /* PBXTextBookmark */;
+			F838714D0E4CB03A00A1DF0B = F838714D0E4CB03A00A1DF0B /* PBXTextBookmark */;
+			F83871500E4CB03A00A1DF0B = F83871500E4CB03A00A1DF0B /* PlistBookmark */;
+			F83871510E4CB03A00A1DF0B = F83871510E4CB03A00A1DF0B /* PBXTextBookmark */;
+			F83871520E4CB03A00A1DF0B = F83871520E4CB03A00A1DF0B /* PBXTextBookmark */;
+			F83871530E4CB03A00A1DF0B = F83871530E4CB03A00A1DF0B /* PBXTextBookmark */;
+			F84F3E360E4CAE3F0052ABAE = F84F3E360E4CAE3F0052ABAE /* PBXTextBookmark */;
+			F84F3E370E4CAE3F0052ABAE = F84F3E370E4CAE3F0052ABAE /* PBXTextBookmark */;
+			F84F3E390E4CAE3F0052ABAE = F84F3E390E4CAE3F0052ABAE /* PBXTextBookmark */;
+			F84F3E3B0E4CAE3F0052ABAE = F84F3E3B0E4CAE3F0052ABAE /* PBXTextBookmark */;
+			F86C4D870E915A0C009346BB = F86C4D870E915A0C009346BB /* PBXTextBookmark */;
+			F86C4D880E915A0C009346BB = F86C4D880E915A0C009346BB /* PBXTextBookmark */;
+			F86C4D8A0E915A0C009346BB = F86C4D8A0E915A0C009346BB /* PBXTextBookmark */;
+			F86C4D910E915A0C009346BB = F86C4D910E915A0C009346BB /* PBXTextBookmark */;
+		};
+		sourceControlManager = F85AEB780E12BEDB00817821 /* Source Control */;
+		userBuildSettings = {
+			OBJROOT = /Users/kghose/Src/LablibEyeLinkPlugin/build;
+			SYMROOT = "/Library/Application Support/Knot/Plugins";
+		};
+	};
+	089C1667FE841158C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {717, 567}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 263}";
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {717, 567}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 194}";
+		};
+	};
+	697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 439}, {750, 558}}";
+		};
+	};
+	F81894490EACF06700E7A0BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 190";
+		rLen = 0;
+		rLoc = 4175;
+		rType = 0;
+		vrLen = 2386;
+		vrLoc = 2974;
+	};
+	F81894920EACF1B500E7A0BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 190";
+		rLen = 0;
+		rLoc = 4175;
+		rType = 0;
+		vrLen = 2386;
+		vrLoc = 2974;
+	};
+	F818949C0EACF39800E7A0BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 190";
+		rLen = 0;
+		rLoc = 4174;
+		rType = 0;
+		vrLen = 2456;
+		vrLoc = 3449;
+	};
+	F81894B50EAD16AE00E7A0BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 190";
+		rLen = 0;
+		rLoc = 4174;
+		rType = 0;
+		vrLen = 2386;
+		vrLoc = 2974;
+	};
+	F838714B0E4CB03A00A1DF0B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kghose/Src/LablibEyeLinkPlugin/LablibEyeLink_Plugin.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F838714C0E4CB03A00A1DF0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */;
+		name = "LLEyeLinkMonitorSettings.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 0;
+	};
+	F838714D0E4CB03A00A1DF0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */;
+		name = "LLEyeLinkMonitorSettings.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	F83871500E4CB03A00A1DF0B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 697BD6710988415500D9176F /* LablibEyeLink_Plugin.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kghose/Src/LablibEyeLinkPlugin/LablibEyeLink_Plugin.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F83871510E4CB03A00A1DF0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */;
+		name = "LLEyeLinkMonitorSettings.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 0;
+	};
+	F83871520E4CB03A00A1DF0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */;
+		name = "LLEyeLinkMonitorSettings.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 0;
+	};
+	F83871530E4CB03A00A1DF0B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */;
+		name = "LLEyeLinkDataDevice.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	F84F3E360E4CAE3F0052ABAE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */;
+		name = "LablibEyeLink_Prefix.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	F84F3E370E4CAE3F0052ABAE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1667FE841158C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	F84F3E390E4CAE3F0052ABAE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF5E0370ADEE00C91783 /* LablibEyeLink_Prefix.h */;
+		name = "LablibEyeLink_Prefix.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	F84F3E3B0E4CAE3F0052ABAE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1667FE841158C02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	F85AEB780E12BEDB00817821 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = "";
+		};
+	};
+	F85AEB790E12BEDB00817821 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F86C4D870E915A0C009346BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */;
+		name = "LLEyeLinkDataDevice.h: 41";
+		rLen = 0;
+		rLoc = 1046;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 0;
+	};
+	F86C4D880E915A0C009346BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8C69BED0E5B53D600070A28 /* eye_data.h */;
+		name = "eye_data.h: 121";
+		rLen = 11;
+		rLoc = 5809;
+		rType = 0;
+		vrLen = 4715;
+		vrLoc = 3551;
+	};
+	F86C4D8A0E915A0C009346BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */;
+		name = "LLEyeLinkDataDevice.m: 159";
+		rLen = 27;
+		rLoc = 3494;
+		rType = 0;
+		vrLen = 2275;
+		vrLoc = 1987;
+	};
+	F86C4D910E915A0C009346BB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8C69BED0E5B53D600070A28 /* eye_data.h */;
+		name = "eye_data.h: 121";
+		rLen = 11;
+		rLoc = 5809;
+		rType = 0;
+		vrLen = 4715;
+		vrLoc = 3551;
+	};
+	F8C69BE70E5B53D200070A28 /* LabLib */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = F8C69BE80E5B53D200070A28 /* Knot.app */;
+		libgmallocEnabled = 0;
+		name = LabLib;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F8C69BE80E5B53D200070A28 /* Knot.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Knot.app;
+		path = /Documents/Lablib/Applications/Knot/build/Development/Knot.app;
+		sourceTree = "<absolute>";
+	};
+	F8C69BED0E5B53D600070A28 /* eye_data.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = eye_data.h;
+		path = /Library/Frameworks/eyelink_core.framework/Versions/A/Headers/eye_data.h;
+		sourceTree = "<absolute>";
+	};
+	FC0ED4640CA064BC00BE2453 /* LLEyeLinkDataDevice.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1438}}";
+			sepNavSelRange = "{1046, 0}";
+			sepNavVisRange = "{0, 1361}";
+			sepNavWindowFrame = "{{194, -807}, {1045, 1491}}";
+		};
+	};
+	FC0ED4650CA064BC00BE2453 /* LLEyeLinkDataDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 5880}}";
+			sepNavSelRange = "{4174, 0}";
+			sepNavVisRange = "{2974, 2386}";
+		};
+	};
+	FC0ED5120CA067EA00BE2453 /* LablibEyeLink Plugin */ = {
+		activeExec = 0;
+	};
+	FC4059980CD6682F00F2E428 /* LLEyeLinkMonitorSettings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {588, 567}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 607}";
+		};
+	};
+	FC40599F0CD6687000F2E428 /* LLEyeLinkMonitorSettings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {588, 994}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1010}";
+		};
+	};
+}
